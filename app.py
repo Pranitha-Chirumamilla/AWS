@@ -7,7 +7,7 @@ import pickle
 app = Flask(__name__)
 
 # Load the pre-trained model
-with open('Model.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 with open('Scaler.pkl', 'rb') as f:
